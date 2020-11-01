@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie:regular');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap');
+
+
+  .template{
+    
+    width: 300px;
+    height: auto;
+    border: 1px solid rgb(47, 32, 175);
+    font-family:"Grandstander";
+    font-size:20px;
+    text-align: center;
+
+  }
+
+  .box{
+    resize: none;
+    text-align: left;
+    overflow: auto;
+    font-family:"Reenie Beanie",arial,sans-serif;
+    font-size:180%;
+    text-shadow: 4px 4px 4px #aaa;
+    display: block;
+    margin: auto;
+  
+  }
+
+  #start{
+    display: block;
+    margin: auto;
+  }
+
+  .save{
+    display: block;
+   margin: auto;
+   width: 574px;
+  }
+
+  .noteContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items: flex-start;
+  }
+  
+  .title{
+    display: block;
+   margin: auto;
+   text-align: center;
+   font-family:"Grandstander";
+   font-size:20px;
+   font-weight: bold;
+  }
